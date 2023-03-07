@@ -43,7 +43,7 @@ public class BannerModelImpl implements BannerModel {
     @Override
     public String getBannerText() {
         //String ab=bannerText;
-        return "bannerloduText";
+        return bannerText;
     }
 
     // Re-use the Image class for all other methods:
