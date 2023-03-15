@@ -23,6 +23,8 @@ import './OpenWeather/OpenWeather';
 import './FirstReact/FirstReact';
 import './Banner/Banner';
 import './Signup/Signup';
+import './Table/Table';
+import './ApiCallCheck/ApiCallCheck'
 
 
 import {MapTo} from '@adobe/aem-react-editable-components';
