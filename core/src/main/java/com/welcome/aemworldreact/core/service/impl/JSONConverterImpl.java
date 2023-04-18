@@ -41,6 +41,7 @@ public class JSONConverterImpl implements JSONConverter {
     @SuppressWarnings("unchecked")
     @Override
     public String convertToJsonString(Object object) {
+
         ObjectMapper mapper = new ObjectMapper();
         try {
             return mapper.setSerializationInclusion(Include.NON_EMPTY).writerWithDefaultPrettyPrinter().writeValueAsString(object);

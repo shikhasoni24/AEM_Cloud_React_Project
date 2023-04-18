@@ -18,6 +18,7 @@ public class StringObjectResponseHandler implements ResponseHandler<String> {
     @Override
     public String handleResponse(HttpResponse httpResponse) throws
             ClientProtocolException, IOException {
+
         String responseString = handler.handleResponse(httpResponse);
         HttpClientUtils.closeQuietly(httpResponse);
         return responseString;
